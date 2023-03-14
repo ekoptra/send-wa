@@ -1,0 +1,19 @@
+{
+	"name": "wa-notification",
+	"version": "1.0.0",
+	"description": "Simple app to send Whatsapp Message using excel file",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"type": "module",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.18.2",
+		"qrcode-terminal": "^0.12.0",
+		"read-excel-file": "^5.6.1",
+		"whatsapp-web.js": "^1.19.4",
+		"winston": "^3.8.2"
+	}
+}
