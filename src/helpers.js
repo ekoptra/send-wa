@@ -62,7 +62,7 @@ export const sendMessageByExcel = async (pathFile, template, waNumberColumnName 
         const message = template(row);
         sendMessage(row[waNumberColumnName], message, logger);
 
-        const random = getRandomNumber(500, 1500);
+        const random = getRandomNumber(12000, 20000);
         await sleep(random);
     }
 }
